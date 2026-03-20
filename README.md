@@ -31,3 +31,17 @@ Para este proyecto se ha seleccionado el siguiente stack tecnológico:
 3. Activar el entorno virtual.
 4. Instalar dependencias: `pip install -r src/requirements.txt`
 5. Ejecutar la aplicación: `uvicorn src.main:app --reload`
+
+## 🌐 Entorno Operativo y Evidencias
+
+La aplicación se encuentra desplegada y funcionando de manera continua en la nube. 
+
+* **URL de la API en Render:** [https://gestiondatosparaia.onrender.com](https://gestiondatosparaia.onrender.com)
+
+### Capturas del Despliegue (CI/CD)
+
+**1. Integración Continua (GitHub Actions):**
+![Conf_inicia](./docs/Conf_inicial.png)
+
+**2. Entrega Continua (Despliegue en Render):**
+![Despliegue Render](./docs/Creacion_render.png)
